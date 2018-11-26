@@ -28,9 +28,9 @@ public class Utilitaire {
 	
 	
 	
-	static double exponentiel(int a) {
+	static double exponentiel(int a, int precision) {
 		double valeur = 0;
-		for(int i=0;i<=100;i++) {
+		for(int i=0;i<=precision;i++) {
 			valeur = valeur + puissance(a,i)/factorielle(i);
 		}
 		return valeur;
