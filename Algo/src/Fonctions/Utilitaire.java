@@ -30,7 +30,7 @@ public class Utilitaire {
 	
 	static double exponentiel(int a) {
 		double valeur = 0;
-		for(int i=0;i<=a;i++) {
+		for(int i=0;i<=100;i++) {
 			valeur = valeur + puissance(a,i)/factorielle(i);
 		}
 		return valeur;
@@ -39,7 +39,7 @@ public class Utilitaire {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(exponentiel(110));
+		System.out.println(exponentiel(3));
 		
 	}
 
